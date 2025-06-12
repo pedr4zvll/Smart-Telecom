@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR" class="light-style  layout-navbar-fixed      " dir="ltr" data-theme="theme-default" data-assets-path="https://smarttelecom.eng.br/assets/" data-base-url="https://smarttelecom.eng.br" data-framework="laravel" data-template="front-menu-theme-default-light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+  <title>Smart Telecom - Projetos e consultoria para provedores |
+    Smart Telecom -
+    Projetos e Consultoria</title>
+  <meta name="description" content="Especialista em Consultoria e Projetos para Provedores de Internet" />
+  <meta name="keywords" content="Consultoria, Projetos, Provedores, Internet, Projetos de Postes, FTTx, FTTH, Consultoria Contábil, CREA, ANATEL, CFT">
+  <!-- laravel CRUD token -->
+  <meta name="csrf-token" content="xN1Z5vuOpfwSe6hVUmqxWffwkKsTcZt4mnT2ATvH">
+  <!-- Canonical SEO -->
+  <link rel="canonical" href="https://smarttelecom.eng.br/">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="https://smarttelecom.eng.br/new_template/assets/img/favicon.png" />
+
+  
+
+  <!-- Include Styles -->
+  <!-- $isFront is used to append the front layout styles only on the front layout otherwise the variable will be blank -->
+  <!-- BEGIN: Theme CSS-->
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/fonts/boxicons.css?id=cb2abd8588b1a15b00487f17a31ce6dd" />
+<!-- Core CSS -->
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/css/rtl/core.css?id=cebe67482c56afe6e1152ed14dee39ce" class="template-customizer-core-css" />
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/css/rtl/theme-default.css?id=ffa83d457a09c1ee0cba1a353b05e915" class="template-customizer-theme-css" />
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/css/demo.css?id=7dcb0d1efbe2dd61627f76e51424b634" />
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/css/pages/front-page.css?id=d1e7459f211949ca9a74ab9a116c3baa" />
+<!-- Vendor Styles -->
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/libs/apex-charts/apex-charts.css">
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/libs/select2/select2.css" />
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/libs/sweetalert2/sweetalert2.css" />
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/libs/@form-validation/umd/styles/index.min.css" />
+
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/libs/nouislider/nouislider.css" />
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/libs/swiper/swiper.css" />
+
+
+<!-- Page Styles -->
+
+<link rel="stylesheet" href="https://smarttelecom.eng.br/assets/vendor/css/pages/front-page-landing.css" />
+
+  <!-- Include Scripts for customizer, helper, analytics, config -->
+  <!-- $isFront is used to append the front layout scriptsIncludes only on the front layout otherwise the variable will be blank -->
+  <!-- laravel style -->
+<script src="https://smarttelecom.eng.br/assets/vendor/js/helpers.js"></script>
+<!-- beautify ignore:start -->
+  <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+  <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+  <script src="https://smarttelecom.eng.br/assets/vendor/js/template-customizer.js"></script>
+
+  <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+  <script src="https://smarttelecom.eng.br/assets/js/front-config.js"></script>
+
+  <script>
+    window.templateCustomizer = new TemplateCustomizer({
+      cssPath: '',
+      themesPath: '',
+      defaultStyle: "light",
+      displayCustomizer: "1",
+      lang: 'pt_BR',
+      pathResolver: function(path) {
+        var resolvedPaths = {
+          // Core stylesheets
+                      'core.css': 'https://smarttelecom.eng.br/assets/vendor/css/rtl/core.css?id=cebe67482c56afe6e1152ed14dee39ce',
+            'core-dark.css': 'https://smarttelecom.eng.br/assets/vendor/css/rtl/core-dark.css?id=e4325fc2d8fdc472ebe45d1701b63261',
+          
+          // Themes
+                      'theme-default.css': 'https://smarttelecom.eng.br/assets/vendor/css/rtl/theme-default.css?id=ffa83d457a09c1ee0cba1a353b05e915',
+            'theme-default-dark.css':
+            'https://smarttelecom.eng.br/assets/vendor/css/rtl/theme-default-dark.css?id=a46aa92aee64d368e2964e1f67dd5d3e',
+                      'theme-bordered.css': 'https://smarttelecom.eng.br/assets/vendor/css/rtl/theme-bordered.css?id=151f4e79cea79ac1f9296fdfe75d1260',
+            'theme-bordered-dark.css':
+            'https://smarttelecom.eng.br/assets/vendor/css/rtl/theme-bordered-dark.css?id=5c92f9285d148914a6fb1df88eeaf7b2',
+                      'theme-semi-dark.css': 'https://smarttelecom.eng.br/assets/vendor/css/rtl/theme-semi-dark.css?id=783e55af4a9b79772a042a54ccd1488e',
+            'theme-semi-dark-dark.css':
+            'https://smarttelecom.eng.br/assets/vendor/css/rtl/theme-semi-dark-dark.css?id=d39ef340c89d70e80c523e580f291a6e',
+                  }
+        return resolvedPaths[path] || path;
+      },
+      'controls': ["rtl","style"],
+
+    });
+  </script>
+</head>
+
+<body>
+  
+
+  <!-- Layout Content -->
+  
+
+
+<!-- Navbar: Start -->
+<nav class="layout-navbar shadow-none py-0 navbar-active">
+  <div class="container">
+    <div class="navbar navbar-expand-lg landing-navbar px-3 px-md-4 ">
+      <!-- Menu logo wrapper: Start -->
+      <div class="navbar-brand app-brand demo d-flex py-0 me-4">
+        <!-- Mobile menu toggle: Start-->
+        <button class="navbar-toggler border-0 px-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="tf-icons bx bx-menu bx-sm align-middle"></i>
+        </button>
+        <!-- Mobile menu toggle: End-->
+        <a href="#" class="app-brand-link">
+          
+          <img src=/assets/img/smart/LogoSmartHorizontalGrande.png width="150px">
+        </a>
+
+      </div>
+      <!-- Menu logo wrapper: End -->
+      <!-- Menu wrapper: Start -->
+      <div class="collapse navbar-collapse landing-nav-menu" id="navbarSupportedContent">
+        <button class="navbar-toggler border-0 text-heading position-absolute end-0 top-0 scaleX-n1-rtl" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="tf-icons bx bx-x bx-sm"></i>
+        </button>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-medium" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#servicos">Nossos Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" data-bs-toggle="modal" data-bs-target="#modalOrcamento">Orçamento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="https://smarttelecom.eng.br/artigos/list">Artigos Smart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="https://smarttelecom.eng.br/materiais/list">Materiais Smart</a>
+          </li>
+
+
+        </ul>
+      </div>
+      <div class="landing-menu-overlay d-lg-none"></div>
+      <!-- Menu wrapper: End -->
+      <!-- Toolbar: Start -->
+      <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- Style Switcher -->
+        <li class="nav-item dropdown-style-switcher dropdown me-2 me-xl-0">
+          <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+            <i class='bx bx-sm'></i>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-styles">
+            <li>
+              <a class="dropdown-item" href="javascript:void(0);" data-theme="light">
+                <span class="align-middle"><i class='bx bx-sun me-2'></i>Claro</span>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="javascript:void(0);" data-theme="dark">
+                <span class="align-middle"><i class="bx bx-moon me-2"></i>Escuro</span>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="javascript:void(0);" data-theme="system">
+                <span class="align-middle"><i class="bx bx-desktop me-2"></i>Sistema</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- / Style Switcher-->
+        
+        <!-- navbar button: Start -->
+        <li>
+          <a href="https://smarttelecom.eng.br/login" class="btn btn-primary"><span class="tf-icons bx bx-log-in me-md-2"></span><span class="d-none d-md-block">Entrar</span></a>
+        </li>
+        <!-- navbar button: End -->
+      </ul>
+      <!-- Toolbar: End -->
+    </div>
+  </div>
+</nav>
+<!-- Navbar: End -->
+
+<!-- Sections:Start -->
+<style>
+  .cardServico {
+    transition: transform .5s ease;
+  }
+  
+  .cardServico:hover {
+    transform: translateY(-10px);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .cardServico {
+    position: relative;
+  }
+
+  .icon {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    z-index: 1;
+  }
+
+  .icon img {
+    height: 95px;
+    width: 95px;
+  }
+
+  .card-img-container {
+    position: relative;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .card-equal-height {
+    min-height: 385px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .contato-whatsapp, .btn-whatsapp {
+    position: fixed;
+    bottom: 3rem;
+    right: 1.625rem;
+    z-index: 1080;
+    box-shadow: 0 1px 20px 1px #1fa31f !important;
+  }
+
+  .custom-carousel-section {
+    margin: 0 auto;
+  }
+
+  .custom-carousel-image {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  #serviceFooter {
+    justify-content: space-between;
+  }
+</style>
+
+<div class="contato-whatsapp">
+    <a href="https://wa.me/5585992541025?text=Saiba%20mais%20acerca%20de%20nossos%20serviços%20ofertados" target="_blank" class="btn-whatsapp btn-lg rounded-pill btn-icon btn-success">
+      <span style="font-size: 30px" class="tf-icons bx bxl-whatsapp"></span>
+    </a>
+</div>
+
+<div data-bs-spy="scroll" class="scrollspy-example">
+  <!-- Hero: Start -->
+  <section id="hero-animation">
+    <div id="landingHero" style="background-image: linear-gradient(120deg, rgba(48,48,48,0.9) 2%, rgba(32,158,216,0.9) 100%), url(https://smarttelecom.eng.br/new_template/assets/img/carrousel/Background-Wall.jpg)" class="landingCarousel section-py landing-hero position-relative custom-carousel-section">
+
+      <div class="row">
+        <!-- Bootstrap carousel -->
+        <div class="col-md-12">
+          <div id="landingCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" style="bottom: -18%">
+              <button type="button" data-bs-target="#landingCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex">
+                  <div class="col-md-5 offset-1 d-flex flex-column justify-content-center align-items-start">
+                    <h3 style="color: #FFF">Regularize seu provedor com nossos</h3>
+                    <h2 style="color: #FFF">Projetos de compartilhamento de postes</h2>
+                    <p><small class="text-muted"><em style="color: #FFF">Nossos serviços garantem a regularização completa e eficiente para seu provedor de internet</em></small></p><br>
+                    <p style="color: #FFF"><span style="margin-right: 8px" class="badge badge-center rounded-pill bg-label-info"><i style="font-size: 20px" class="bx bx-check"></i></span><em>Suporte Técnico Especializado</em></p>
+                    <p style="color: #FFF"><span style="margin-right: 8px" class="badge badge-center rounded-pill bg-label-info"><i style="font-size: 20px" class="bx bx-check"></i></span><em>Atendimento ao Cliente de Qualidade</em></p>
+                    <p style="color: #FFF"><span style="margin-right: 8px" class="badge badge-center rounded-pill bg-label-info"><i style="font-size: 20px" class="bx bx-check"></i></span><em>Regularização Rápida e Eficiente</em></p>
+
+                    <button onclick="window.open('https://wa.me/5585992541025?text=Saiba%20mais%20acerca%20de%20nossos%20serviços%20ofertados.', '_blank')" type="button" class="btn btn-lg rounded-pill btn-primary  mt-5">Fale Conosco</button>
+                  </div>
+                  <div class="col-md-6">
+                    <img class="d-block w-70 custom-carousel-image" src="https://smarttelecom.eng.br/new_template/assets/img/carrousel/projetos.png" alt="slide" />
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Bootstrap crossfade carousel -->
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Hero: End -->
+
+  <!-- Useful features: Start -->
+  <section id="servicos" class="section-py landing-features">
+    <div class="container">
+      <div class="text-center mb-3 pb-1">
+        <span class="badge bg-label-primary">Prestação de serviços</span>
+      </div>
+      <h3 class="text-center mb-1">
+        <span class="section-title">Nossos Serviços</span>
+      </h3>
+      <p class="text-center mb-3 mb-md-5 pb-3">
+        O objetivo da Smart Telecom é oferecer aos seus parceiros comodidade e eficiência na gestão de um provedor de internet, ofertando diversos serviços em um só lugar.
+      </p>
+      <div class="features-icon-wrapper row gx-0 gy-4 g-sm-5">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 mb-5">
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="Crea">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/consultoria-crea_1.svg" alt="Ícone" />
+              </div>
+              <div class="img-blur">
+              <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/consultoria.png" alt="Imagem" />
+              </div>
+              <div class="card-body">
+                <h5>Consultoria CREA</h5>
+                <p>Conte com nossa expertise para orientação e regularização junto ao CREA. Desde a concepção até a execução, garantimos conformidade e qualidade em seus projetos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="Anatel">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/anatel.svg" alt="Ícone" />
+              </div>
+              <div class="img-blur">
+              <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/crea.png" alt="Imagem" />
+              </div>
+              <div class="card-body">
+                <h5>Consultoria Anatel</h5>
+                <p>Navegue com tranquilidade pelo universo das telecomunicações com nossa consultoria especializada. Atendemos desde regulamentações até licenciamentos, assegurando sua conformidade com a Anatel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="ASN">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/ASN.svg" alt="Ícone" />
+              </div>
+              <div class="img-blur">
+              <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/asn.png" alt="Imagem" />
+              </div>
+              <div class="card-body">
+                <h5>Consultoria ASN</h5>
+                <p>Maximizamos sua conectividade com nossa consultoria em Sistemas Autônomos (ASN). Otimize rotas, melhore a segurança e impulsione o desempenho da sua rede com nossa orientação especializada.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="Contabil">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/CONTABIL.svg" alt="Ícone" />
+              </div>
+              <div class="card-img-container">
+                <div class="img-blur">
+                  <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/contabil.png" alt="Imagem" />
+                </div>
+              </div>
+              <div class="card-body">
+                <h5>Consultoria Contábil</h5>
+                <p>Desembarace os nós da contabilidade com nossa consultoria especializada. Desde a organização fiscal até análises estratégicas, proporcionamos clareza e eficiência para o seu negócio.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="Juridica">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/JURIDICA.svg" alt="Ícone" />
+              </div>
+              <div class="img-blur">
+                <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/consultoriajuridica.webp" alt="Imagem" />
+              </div>
+              <div class="card-body">
+                <h5>Consultoria Jurídica</h5>
+                <p>Proteja seus interesses e mantenha-se em conformidade com a legislação. Nossa consultoria jurídica oferece suporte especializado para resolver questões legais complexas e evitar problemas futuros.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="Compartilhamento">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/POSTES.svg" alt="Ícone" />
+              </div>
+              <div class="img-blur">
+                <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/postes.png" alt="Imagem" />
+              </div>
+              <div class="card-body">
+                <h5>Projetos de compartilhamento de poste</h5>
+                <p>Facilitamos a expansão de redes através de projetos eficientes de compartilhamento de postes. Economize recursos e agilize implantações com nossa abordagem estratégica.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="FTTH">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/FIBRA.svg" alt="Ícone" />
+              </div>
+              <div class="img-blur">
+              <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/fttx.png" alt="Imagem" />
+              </div>
+              <div class="card-body">
+                <h5>Projetos de Redes Ópticas (FTTH)</h5>
+                <p>Transforme sua infraestrutura de comunicação com nossa expertise em projetos de redes ópticas. Leve conexões de alta velocidade até seus clientes com soluções FTTH eficientes e confiáveis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 cardServico" data-bs-target="#modalServico" data-bs-toggle="modal" servicoID="Equipamentos">
+              <div class="icon">
+                <img src="https://smarttelecom.eng.br/new_template/assets/img/services/REDES.svg" alt="Ícone" />
+              </div>
+              <div class="img-blur">
+              <img class="card-img-top" src="https://smarttelecom.eng.br/new_template/assets/img/services/equipamentos.png" alt="Imagem" />
+              </div>
+              <div class="card-body">
+                <h5>Configuração de Equipamentos</h5>
+                <p>Garanta o máximo desempenho de seus equipamentos com nossa configuração especializada. Desde roteadores até servidores, otimizamos cada configuração para atender às suas necessidades específicas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id="orcamento">
+          <h3 class="text-center mb-1" >
+            <span class="section-title">Tem interesse nos nossos serviços?</span>
+          </h3>
+        </section>
+        <div class="btn">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modalOrcamento" class="btn btn-xl rounded-pill btn-primary">Simule um orçamento!</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Useful features: End -->
+
+  <!-- Real customers reviews: Start -->
+  <section id="landingReviews" class="section-py bg-body landing-reviews pb-0">
+    <div class="container">
+      <div class="row align-items-center gx-0 gy-4 g-lg-5">
+        <div class="col-md-6 col-lg-5 col-xl-3">
+          <div class="mb-3 pb-1">
+            <span class="badge bg-label-primary">Artigos Smart</span>
+          </div>
+          <h3 class="mb-1"><span class="section-title">Nossos Artigos</span></h3>
+          <p>
+            Conteúdos disponíveis em<br class="d-none d-xl-block" />
+            nossa plataforma, experimente!
+          </p>
+          <a href="https://smarttelecom.eng.br/artigos/list" class="btn btn-primary mb-4">Ver mais</a>
+          <div class="landing-reviews-btns d-flex align-items-center gap-3">
+            <button id="reviews-previous-btn" class="btn btn-label-primary reviews-btn" type="button">
+              <i class="bx bx-chevron-left bx-sm"></i>
+            </button>
+            <button id="reviews-next-btn" class="btn btn-label-primary reviews-btn" type="button">
+              <i class="bx bx-chevron-right bx-sm"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-7 col-xl-9">
+          <div class="swiper-reviews-carousel overflow-hidden mb-5 pb-md-2 pb-md-3">
+            <div class="swiper" id="swiper-reviews">
+              <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                  <div class="card card-equal-height mb-3">
+                    <img class="card-img-top" src="https://smarttelecom.eng.br/assets/img/artigos/6762fc2d19945 - Google_Earth_como_uitiliza-lo_para_projeto_FTTH_-_Site.png" alt="Card image">
+                    <div class="card-body">
+                      <h5 class="card-title"><a class="card-title" href="https://smarttelecom.eng.br/artigos/list">Google Earth: como utilizá-lo para projeto FTTH?</a></h5>
+                      <p class="card-text">Google Earth: como utilizá-lo para projeto FTTH?</p>
+                      <div class="d-flex align-items-center">
+                        <div class="d-flex">
+                          <div class="avatar flex-shrink-0 me-2">
+                            <span class="avatar-initial rounded bg-label-primary"><i class="bx bx-calendar-exclamation bx-sm"></i></span>
+                          </div>
+                          <div>
+                            <small>Postado em</small>
+                            <h6 class="mb-0 text-nowrap">18/12/2024</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="swiper-slide">
+                  <div class="card card-equal-height mb-3">
+                    <img class="card-img-top" src="https://smarttelecom.eng.br/assets/img/artigos/6672eb914f8b2 - 6672eb914f8b2 - WhatsApp Image 2024-12-27 at 10.41.21 (1).jpeg" alt="Card image">
+                    <div class="card-body">
+                      <h5 class="card-title"><a class="card-title" href="https://smarttelecom.eng.br/artigos/list">7 Etapas de um Projeto FTTH</a></h5>
+                      <p class="card-text">Passo a passo da confecção de um projeto FTTH</p>
+                      <div class="d-flex align-items-center">
+                        <div class="d-flex">
+                          <div class="avatar flex-shrink-0 me-2">
+                            <span class="avatar-initial rounded bg-label-primary"><i class="bx bx-calendar-exclamation bx-sm"></i></span>
+                          </div>
+                          <div>
+                            <small>Postado em</small>
+                            <h6 class="mb-0 text-nowrap">13/06/2024</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="swiper-slide">
+                  <div class="card card-equal-height mb-3">
+                    <img class="card-img-top" src="https://smarttelecom.eng.br/assets/img/artigos/66796c6429d4a - Qual_a_Importância_do_Projeto_FTTH_para_o_provedor_ISP__-_Site.png" alt="Card image">
+                    <div class="card-body">
+                      <h5 class="card-title"><a class="card-title" href="https://smarttelecom.eng.br/artigos/list">Qual a Importância do Projeto FTTH para o provedor ISP?</a></h5>
+                      <p class="card-text">Explore como a implementação de fibra óptica até a residência pode melhorar a qualidade do serviço e proporcionar oportunidades de crescimento no mercado</p>
+                      <div class="d-flex align-items-center">
+                        <div class="d-flex">
+                          <div class="avatar flex-shrink-0 me-2">
+                            <span class="avatar-initial rounded bg-label-primary"><i class="bx bx-calendar-exclamation bx-sm"></i></span>
+                          </div>
+                          <div>
+                            <small>Postado em</small>
+                            <h6 class="mb-0 text-nowrap">10/06/2024</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="swiper-slide">
+                  <div class="card card-equal-height mb-3">
+                    <img class="card-img-top" src="https://smarttelecom.eng.br/assets/img/artigos/6672f1ac3a20d - Atualizações_sobre_-_Site_2.png" alt="Card image">
+                    <div class="card-body">
+                      <h5 class="card-title"><a class="card-title" href="https://smarttelecom.eng.br/artigos/list">Atualizações sobre a revisão do setor de compartilhamento de postes</a></h5>
+                      <p class="card-text">Últimas atualizações do setor de compartilhamento de postes</p>
+                      <div class="d-flex align-items-center">
+                        <div class="d-flex">
+                          <div class="avatar flex-shrink-0 me-2">
+                            <span class="avatar-initial rounded bg-label-primary"><i class="bx bx-calendar-exclamation bx-sm"></i></span>
+                          </div>
+                          <div>
+                            <small>Postado em</small>
+                            <h6 class="mb-0 text-nowrap">15/05/2024</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="swiper-slide">
+                  <div class="card card-equal-height mb-3">
+                    <img class="card-img-top" src="https://smarttelecom.eng.br/assets/img/artigos/66796adb3340f - Além_do_ponto_de_fixação_do_poste,_meu_provedor_-_Site_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h5 class="card-title"><a class="card-title" href="https://smarttelecom.eng.br/artigos/list">Além do ponto de fixação do poste, meu provedor terá mais taxas da Concessionária de Energia Elétrica?</a></h5>
+                      <p class="card-text">Saiba mais sobre as taxas adicionais que seu provedor de internet pode enfrentar junto à concessionária de energia elétrica</p>
+                      <div class="d-flex align-items-center">
+                        <div class="d-flex">
+                          <div class="avatar flex-shrink-0 me-2">
+                            <span class="avatar-initial rounded bg-label-primary"><i class="bx bx-calendar-exclamation bx-sm"></i></span>
+                          </div>
+                          <div>
+                            <small>Postado em</small>
+                            <h6 class="mb-0 text-nowrap">24/04/2024</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="swiper-slide">
+                  <div class="card card-equal-height mb-3">
+                    <img class="card-img-top" src="https://smarttelecom.eng.br/assets/img/artigos/6679651acfe34 - 03 - Além_do_ponto_de_fixação_do_poste,_meu_provedor_-_Site.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h5 class="card-title"><a class="card-title" href="https://smarttelecom.eng.br/artigos/list">Qual o preço do aluguel do poste para o meu Provedor ISP?</a></h5>
+                      <p class="card-text">Descubra como calcular o preço do aluguel de postes para o seu provedor ISP</p>
+                      <div class="d-flex align-items-center">
+                        <div class="d-flex">
+                          <div class="avatar flex-shrink-0 me-2">
+                            <span class="avatar-initial rounded bg-label-primary"><i class="bx bx-calendar-exclamation bx-sm"></i></span>
+                          </div>
+                          <div>
+                            <small>Postado em</small>
+                            <h6 class="mb-0 text-nowrap">28/03/2024</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- Real customers reviews: End -->
+
+  <!-- Fun facts: Start -->
+
+  <!-- Fun facts: End -->
+
+    <!-- CTA: Start -->
+
+    <!-- CTA: End -->
+
+  <!-- FAQ: Start -->
+  
+  <!-- FAQ: End -->
+
+  <div class="modal fade" id="modalOrcamento" tabindex="-1" aria-labelledby="motalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="motalTitle">Simular um Orçamento</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl">
+                  <form id="formOrcamento" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label class="form-label" for="servico">Serviço Orçado</label>
+                        <select class="select2 select-event-label form-select" id="servico" name="servico">
+                            <option data-label="primary" value="anatel" selected>Consultoria Anatel</option>
+                            <option data-label="danger" value="completa">Consultoria Completa - Anatel + CREA/CFT</option>
+                            <option data-label="info" value="contabil">Assessoria Contábil</option>
+                            <option data-label="warning" value="infraestrutura">Projeto de Compartilhamento de Postes</option>
+                            <option data-label="success" value="fttx">Projeto FTTx</option>
+                        </select>
+                    </div>
+                    <hr class="my-4 mx-n4" />
+
+                    <div class="mb-3 row" id="formData"></div>
+                  </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <label class="btn btn-primary" for="btnsubmit" id="btnsubmitlabel">Enviar</label>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="modal fade" id="modalServico" tabindex="-1" aria-labelledby="motalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-fullscreen" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img style="width: 160; height: 40px" src="https://smarttelecom.eng.br/new_template/assets/img/logo2.png" alt="Logo">
+            <h5 style="margin-left: 10px" class="modal-title" id="serviceTitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-8" id="conteudoServico"></div>
+              <div class="col-md-4 fb-page-container">
+
+                <h1 style="margin-top: 20px">Nossos Serviços</h1>
+                <div class="servicosModal" id="servicosModal">
+
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/consultoria.png" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Consultoria CREA</h5>
+                              <p class="card-text">
+                                Conte com nossa expertise para orientação e regularização junto ao CREA. Desde a concepção até a execução, garantimos conformidade e qualidade em seus projetos.
+                              </p>
+                              <button style="margin-top: 20px" cardID="Crea" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/crea.png" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Consultoria Anatel</h5>
+                              <p class="card-text">
+                                Navegue com tranquilidade pelo universo das telecomunicações com nossa consultoria especializada. Atendemos desde regulamentações até licenciamentos, assegurando sua conformidade com a Anatel.
+                              </p>
+                              <button style="margin-top: 20px" cardID="Anatel" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/asn.png" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Consultoria ASN</h5>
+                              <p class="card-text">
+                                Maximizamos sua conectividade com nossa consultoria em Sistemas Autônomos (ASN). Otimize rotas, melhore a segurança e impulsione o desempenho da sua rede com nossa orientação especializada.
+                              </p>
+                              <button style="margin-top: 20px" cardID="ASN" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/contabil.png" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Consultoria Contábil</h5>
+                              <p class="card-text">
+                                Desembarace os nós da contabilidade com nossa consultoria especializada. Desde a organização fiscal até análises estratégicas, proporcionamos clareza e eficiência para o seu negócio.
+                              </p>
+                              <button style="margin-top: 20px" cardID="Contabil" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/consultoriajuridica.webp" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Consultoria Jurídica</h5>
+                              <p class="card-text">
+                                Proteja seus interesses e mantenha-se em conformidade com a legislação. Nossa consultoria jurídica oferece suporte especializado para resolver questões legais complexas e evitar problemas futuros.
+                              </p>
+                              <button style="margin-top: 20px" cardID="Juridica" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/postes.png" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Projetos de compartilhamento de poste</h5>
+                              <p class="card-text">
+                                Facilitamos a expansão de redes através de projetos eficientes de compartilhamento de postes. Economize recursos e agilize implantações com nossa abordagem estratégica.
+                              </p>
+                              <button style="margin-top: 20px" cardID="Compartilhamento" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/fttx.png" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Projetos de Redes Ópticas (FTTH)</h5>
+                              <p class="card-text">
+                                Transforme sua infraestrutura de comunicação com nossa expertise em projetos de redes ópticas. Leve conexões de alta velocidade até seus clientes com soluções FTTH eficientes e confiáveis.
+                              </p>
+                              <button style="margin-top: 20px" cardID="FTTH" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img style="border-radius: 0.5rem;" class="card-img card-img-left" src="https://smarttelecom.eng.br/new_template/assets/img/services/equipamentos.png" alt="Imagem" />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Configuração de Equipamentos</h5>
+                              <p class="card-text">
+                                Garanta o máximo desempenho de seus equipamentos com nossa configuração especializada. Desde roteadores até servidores, otimizamos cada configuração para atender às suas necessidades específicas.
+                              </p>
+                              <button style="margin-top: 20px" cardID="Equipamentos" class="btn btn-primary w-100 d-grid btnVerMais">Ver mais</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- / Sections:End -->
+
+<!-- Footer: Start -->
+<footer class="landing-footer bg-body footer-text">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gx-0 gy-4 g-md-5">
+        <div class="col-lg-5">
+          <a href="#" class="app-brand-link mb-4">
+            <img style="width: 50px; height: 50px" src="https://smarttelecom.eng.br/new_template/assets/img/favicon.png" alt="Logo">
+            <span style="text-transform: capitalize" class="app-brand-text demo footer-link fw-bold ms-2 ps-1">Smart Telecom</span>
+          </a>
+          <h6 class="footer-title mb-4">Endereço</h6>
+          <p class="footer-text footer-logo-description">Rua Daniel Esmero, 574, Croatá II</p>
+          <p class="footer-text footer-logo-description">Pacajus, CE - Brasil</p>
+
+          <hr class="my-4 mx-n4">
+
+          <h6 class="footer-title mb-4">Contato</h6>
+
+                        <strong>Telefone 1:</strong> <a href="tel:+55 85 99254-1025">+55 85 99254-1025</a><br>
+                        <strong>Telefone 2:</strong> <a href="tel:+55 85 99263-7260">+55 85 99263-7260</a><br>
+                                  <strong>Email:</strong> <a href="mailto:contato@smarttelecom.eng.br">contato@smarttelecom.eng.br</a><br>
+                  </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h6 class="footer-title mb-4">Principais Links</h6>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <a href="#" class="footer-link">Inicio</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link">Serviços</a>
+            </li>
+            <li class="mb-3">
+              <a href="https://smarttelecom.eng.br/login" class="footer-link">Login Smart</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h6 class="footer-title mb-4">Nossos Serviços</h6>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="Crea">Consultoria CREA</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="Anatel">Consultoria Anatel</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="ASN">Consultoria ASN</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="Contabil">Consultoria Contábil</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="Juridica">Consultoria Jurídica</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="Compartilhamento">Projetos de Postes</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="FTTH">Projetos FTTh</a>
+            </li>
+            <li class="mb-3">
+              <a href="#servicos" class="footer-link footer-serviceLink" servicoID="Equipamentos">Configuração de Equipamentos</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h6 class="footer-title mb-4">Nossas Redes Sociais</h6>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <button onclick="window.open('https://wa.me/5585992541025?text=Saiba%20mais%20acerca%20de%20nossos%20serviços%20ofertados.', '_blank')" type="button" class="btn rounded-pill btn-success">
+                <i class="tf-icons bx bxl-whatsapp me-1"></i>WhatsApp
+              </button>
+            </li>
+            <li class="mb-3">
+              <button onclick="window.open('https://www.facebook.com/smarttelecomengenharia/', '_blank')" type="button" class="btn rounded-pill btn-facebook">
+                <i class="tf-icons bx bxl-facebook me-1"></i>Facebook
+              </button>
+            </li>
+            <li class="mb-3">
+              <button onclick="window.open('https://www.instagram.com/smarttelecomeng/?hl=pt-br', '_blank')" type="button" class="btn rounded-pill btn-instagram">
+                <i class="tf-icons bx bxl-instagram me-1"></i>Instagram
+              </button>
+            </li>
+            <li class="mb-3">
+              <button onclick="window.open('https://br.linkedin.com/company/smart-telecom-projetos-e-consultoria', '_blank')" type="button" class="btn rounded-pill btn-linkedin">
+                <i class="tf-icons bx bxl-linkedin me-1"></i>Linkedin
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom py-3">
+    <div class="container d-flex flex-wrap justify-content-between flex-md-row flex-column text-center text-md-start">
+      <div class="mb-2 mb-md-0">
+        <span class="footer-text">©
+          <script>document.write(new Date().getFullYear());</script>
+        </span>
+        <a href="https://smarttelecom.eng.br" target="_blank" class="fw-medium text-white footer-link">Smart Telecom - Projetos e Consultoria.</a>
+        <span class="footer-text"> Todos os direitos reservados.</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer: End -->
+  <!--/ Layout Content -->
+
+  
+
+  <!-- Include Scripts -->
+  <!-- $isFront is used to append the front layout scripts only on the front layout otherwise the variable will be blank -->
+  <!-- BEGIN: Vendor JS-->
+<script src="https://smarttelecom.eng.br/assets/vendor/js/dropdown-hover.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/js/mega-dropdown.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/popper/popper.js?id=f5aae921cb2529b79f3186eebddf5a32"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/js/bootstrap.js?id=1be69b7c44894145f06d0047c7139628"></script>
+
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/jquery/jquery.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/select2/select2.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/sweetalert2/sweetalert2.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/@form-validation/umd/bundle/popular.min.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/@form-validation/umd/plugin-bootstrap5/index.min.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/@form-validation/umd/plugin-auto-focus/index.min.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/cleavejs/cleave.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/cleavejs/cleave-phone.js"></script>
+
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/nouislider/nouislider.js"></script>
+<script src="https://smarttelecom.eng.br/assets/vendor/libs/swiper/swiper.js"></script>
+<!-- END: Page Vendor JS-->
+<!-- BEGIN: Theme JS-->
+<script src="https://smarttelecom.eng.br/assets/js/front-main.js?id=7f5cd3ab414beaef74e8f43a875a9070"></script>
+<!-- END: Theme JS-->
+<!-- Pricing Modal JS-->
+<!-- END: Pricing Modal JS-->
+<!-- BEGIN: Page JS-->
+<script src="https://smarttelecom.eng.br/assets/js/ui-carousel.js"></script>
+<script src="https://smarttelecom.eng.br/assets/js/front-page-landing.js"></script>
+
+<script type="module" src="https://smarttelecom.eng.br/assets/js/orcamento.js"></script>
+<script type="module" src="https://smarttelecom.eng.br/assets/js/orcamento-searchCEP-API.js"></script>
+<!-- END: Page JS-->
+
+</body>
+
+</html>
